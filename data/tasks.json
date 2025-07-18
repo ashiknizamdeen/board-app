@@ -1,0 +1,330 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b8e5?w=40&h=40&fit=crop&crop=face"
+    },
+    {
+      "id": "3",
+      "name": "Mike Johnson",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+    },
+    {
+      "id": "4",
+      "name": "Sarah Wilson",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "User interview",
+      "description": "Conduct user interviews to understand requirements",
+      "status": "To Do",
+      "category": "Research",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "dueDate": "Tomorrow",
+      "attachments": 2,
+      "comments": 2,
+      "createdAt": "2024-04-01T10:00:00Z",
+      "updatedAt": "2024-04-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Design System",
+      "description": "Create comprehensive design system",
+      "status": "To Do",
+      "category": "Design",
+      "priority": "Medium",
+      "assignees": [
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b8e5?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 3,
+      "comments": 8,
+      "reports": 2,
+      "createdAt": "2024-04-01T09:00:00Z",
+      "updatedAt": "2024-04-01T09:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Speech",
+      "description": "Prepare presentation speech",
+      "status": "To Do",
+      "category": "Other",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "3",
+          "name": "Mike Johnson",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 1,
+      "comments": 3,
+      "createdAt": "2024-04-01T08:00:00Z",
+      "updatedAt": "2024-04-01T08:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Wireframe",
+      "description": "Create wireframes for new features",
+      "status": "To Do",
+      "category": "Design",
+      "priority": "High",
+      "assignees": [
+        {
+          "id": "4",
+          "name": "Sarah Wilson",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "createdAt": "2024-04-01T07:00:00Z",
+      "updatedAt": "2024-04-01T07:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "UI Design",
+      "description": "Design user interface components",
+      "status": "In Progress",
+      "category": "Design",
+      "priority": "High",
+      "assignees": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b8e5?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "dueDate": "Tomorrow",
+      "attachments": 2,
+      "comments": 2,
+      "createdAt": "2024-04-01T06:00:00Z",
+      "updatedAt": "2024-04-01T06:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Check Clients Feedback",
+      "description": "Review and analyze client feedback",
+      "status": "In Progress",
+      "category": "Feedback",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "3",
+          "name": "Mike Johnson",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "dueDate": "22 April, 2022",
+      "attachments": 8,
+      "createdAt": "2024-04-01T05:00:00Z",
+      "updatedAt": "2024-04-01T05:00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Copyright",
+      "description": "Handle copyright documentation",
+      "status": "In Progress",
+      "category": "Presentation",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "4",
+          "name": "Sarah Wilson",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "dueDate": "22 April, 2022",
+      "attachments": 4,
+      "createdAt": "2024-04-01T04:00:00Z",
+      "updatedAt": "2024-04-01T04:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Filter sorting",
+      "description": "Implement filter and sorting functionality",
+      "status": "In Progress",
+      "category": "UX Research",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "createdAt": "2024-04-01T03:00:00Z",
+      "updatedAt": "2024-04-01T03:00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Prototype",
+      "description": "Create interactive prototype",
+      "status": "Approved",
+      "category": "Research",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b8e5?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 35,
+      "comments": 243,
+      "createdAt": "2024-04-01T02:00:00Z",
+      "updatedAt": "2024-04-01T02:00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Detail Page",
+      "description": "Design detailed page layouts",
+      "status": "Approved",
+      "category": "Design",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "3",
+          "name": "Mike Johnson",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 6,
+      "comments": 28,
+      "createdAt": "2024-04-01T01:00:00Z",
+      "updatedAt": "2024-04-01T01:00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Animation preloaders",
+      "description": "Create loading animations",
+      "status": "Approved",
+      "category": "Interface",
+      "priority": "High",
+      "assignees": [
+        {
+          "id": "4",
+          "name": "Sarah Wilson",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 4,
+      "comments": 9,
+      "createdAt": "2024-04-01T00:00:00Z",
+      "updatedAt": "2024-04-01T00:00:00Z"
+    },
+    {
+      "id": "12",
+      "title": "Sorting category",
+      "description": "Implement category sorting",
+      "status": "Approved",
+      "category": "UX Research",
+      "priority": "High",
+      "assignees": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "createdAt": "2024-03-31T23:00:00Z",
+      "updatedAt": "2024-03-31T23:00:00Z"
+    },
+    {
+      "id": "13",
+      "title": "Group Management",
+      "description": "Implement group management features",
+      "status": "Reject",
+      "category": "Other",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b8e5?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 329,
+      "createdAt": "2024-03-31T22:00:00Z",
+      "updatedAt": "2024-03-31T22:00:00Z"
+    },
+    {
+      "id": "14",
+      "title": "Design System",
+      "description": "Refine design system components",
+      "status": "Reject",
+      "category": "Design",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "3",
+          "name": "Mike Johnson",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 3,
+      "comments": 8,
+      "reports": 2,
+      "createdAt": "2024-03-31T21:00:00Z",
+      "updatedAt": "2024-03-31T21:00:00Z"
+    },
+    {
+      "id": "15",
+      "title": "Slider controls",
+      "description": "Implement slider control components",
+      "status": "Reject",
+      "category": "Interface",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "4",
+          "name": "Sarah Wilson",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "attachments": 8,
+      "comments": 31,
+      "createdAt": "2024-03-31T20:00:00Z",
+      "updatedAt": "2024-03-31T20:00:00Z"
+    },
+    {
+      "id": "16",
+      "title": "Slider controls",
+      "description": "Additional slider controls implementation",
+      "status": "Reject",
+      "category": "Design",
+      "priority": "Low",
+      "assignees": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        }
+      ],
+      "createdAt": "2024-03-31T19:00:00Z",
+      "updatedAt": "2024-03-31T19:00:00Z"
+    }
+  ]
+}
